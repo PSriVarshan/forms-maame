@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <form method="post">
+        <h2>Survey</h2>
+        <label for="question1">How did you hear about us?</label><br>
+        <input type="radio" id="q1_1" name="question1" value="internet">
+        <label for="q1_1">Internet</label><br>
+        
+        <input type="radio" id="q1_2" name="question1" value="friend">
+        <label for="q1_2">Friend</label><br>
+        
+        <input type="radio" id="q1_3" name="question1" value="other">
+        <label for="q1_3">Other</label><br><br>
+        
+        <label for="question2">Rate your experience:</label><br>
+        <select id="question2" name="question2">
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit Survey">
+    </form>
+    
+</body>
+</html>
